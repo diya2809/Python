@@ -1,4 +1,4 @@
-# h2) First product price >= target using Binary Search
+# h2) First product price 
 
 prices = [25000, 32000, 41000, 50000, 54000, 60000, 75000]
 target = 50000
@@ -12,7 +12,7 @@ while low <= high:
 
     if prices[mid] >= target:
         answer = mid
-        high = mid - 1   # search left side for first occurrence
+        high = mid - 1   # search 
     else:
         low = mid + 1
 
